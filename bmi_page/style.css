@@ -1,0 +1,326 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+/* .expendable-menu .pp{
+    background-image  : url("../symbols-images/Group.svg");
+    background-size: cover;
+
+} */
+
+/* Scrollbar */
+/* body{
+    overflow-y: scroll;
+} */
+
+/* Background Image */
+.background-image{
+    height: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+/* Rectangle */
+.background-image .rectangle{
+    z-index: 1;
+}
+
+/* Tape image */
+.background-image .tape{
+    opacity: 0.50 ;
+}
+
+/* Contact details button */
+.background-image .contact_details{
+    /* height: auto; */
+    position: absolute;
+    top: 15%;
+    /* margin-left: auto;
+    margin-right: auto; */
+    border-spacing: 3px;
+    right: 4%;
+    z-index: 1;
+    background-color: white;
+    border-color: #572C57;
+    border-radius: 30px;
+    font-family: 'Staatliches', cursive;   
+    font-size: 30px;   
+    color: #572C57; 
+    width: 200px;
+
+
+}
+
+
+/* For the Expendable sidebar  */
+.expendable-menu{
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #FEE5A2;
+    overflow-x: hidden;
+    padding-top: 16px;
+}
+
+/* flexbox for sidebar */
+.expendable-menu .flex-container {
+    /* top: 1000px; */
+    /* padding: 6px 8px 6px 16px ; */
+    text-decoration: none;
+    font-size: 40px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    /* height: 100%; */
+    left: 50px;
+    align-items: center;
+    justify-content: center;   
+    /* margin-bottom: 50px;  */
+}
+
+/* sidebar buttons */
+.expendable-menu .flex-container .BMI,.GYMS,.MH,.About, .RP{
+    color:#572C57;
+    /* background-color:  ; */
+    margin-bottom: 25px; 
+
+}
+
+/* Profile Button */
+.expendable-menu .profile_button{
+    position: relative;
+    top: 100px;
+}
+
+.content .heading{
+    position: absolute;
+    top: -40px;
+    left: 30%;
+    font-family: 'Staatliches', cursive;   
+    color: #A06092;
+    font-size: 64px;
+
+    /* transform: translate(30%,0); */
+    /* text-align: center; */
+}
+
+
+.content .input_data {
+    position: absolute;
+    top: 80px;
+    left: 30%;
+
+}
+
+/* Enter Weight  */
+.content .input_data .weight{
+    position: fixed;
+    left: 20%;
+    top: 140px;
+    font-family: 'Staatliches', cursive;   
+    color: #A06092;
+} 
+
+.content .input_data .weight .input_weight{
+    border-radius: 30px;
+    border-spacing: 3px;
+    border-color: #E26972;
+    /* background-color: #E26972; */
+    background-color: white;
+    border: 3px solid #E26972;
+    border-radius: 30px;
+    font-family: 'Staatliches', cursive;   
+    font-size: 30px;   
+    width: 200px;
+    text-align: center;
+    margin-top: 25px;
+    text-emphasis-color: #E26972;
+
+} 
+
+
+.content .input_data .weight .weight_label{
+    font-size: 32px;
+    color: #572C57;
+
+}
+
+
+
+/* Enter height */
+.content .input_data .height{
+    position: fixed;
+    left: 40%;
+    top: 240px;
+    font-family: 'Staatliches', cursive;   
+    color: #572C57;
+} 
+
+.content .input_data .height .input_height{
+    border-radius: 30px;
+    border-spacing: 3px;
+    border-color: #E26972;
+    /* background-color: #E26972; */
+    background-color: white;
+    border: 3px solid #E26972;
+    border-radius: 30px;
+    font-family: 'Staatliches', cursive;   
+    font-size: 30px;   
+    width: 200px;
+    text-align: center;
+    margin-top: 25px;
+    text-emphasis-color: #572C57;
+
+} 
+
+.content .input_data .height .height_label{
+    font-size: 32px;
+    color: #572C57;
+
+}
+
+
+/* Enter Goal */
+.content .input_data .goal{
+    position: fixed;
+    left: 20%;
+    top: 360px;
+    font-family: 'Staatliches', cursive;   
+    color: #572C57;
+} 
+
+.content .input_data .goal .input_goal{
+    border-radius: 30px;
+    border-spacing: 3px;
+    border-color: #572C57;
+    /* background-color: #E26972; */
+    background-color: white;
+    border: 3px solid #E26972;
+    border-radius: 30px;
+    font-family: 'Staatliches', cursive;   
+    font-size: 30px;   
+    width: 200px;
+    text-align: center;
+    margin-top: 25px;
+    text-emphasis-color: #572C57;
+
+} 
+
+.content .input_data .goal .goal_label{
+    font-size: 32px;
+    color: #572C57;
+
+}
+
+/* Select level */
+
+.content .levels >  input {
+    /* -webkit-appearance: none; */
+    -webkit-appearance: none;
+-moz-appearance: none;
+-ms-appearance: none;
+-o-appearance: none;
+appearance: none;
+
+    position: relative;
+    top: 400px;
+    left: -20%;
+    float: left;
+
+    border-radius: 30px;
+    border-spacing: 3px;
+    border-color: #572C57;
+    /* background-color: #E26972; */
+    background-color: white;
+    border: 3px solid #E26972;
+    border-radius: 30px;
+    font-family: 'Staatliches', cursive;   
+    font-size: 30px;   
+    width: 200px;
+    text-align: center;
+    margin-top: -5px;
+    color: #572C57;
+
+
+}
+
+.content .levels > label
+{
+    -webkit-appearance: none;
+-moz-appearance: none;
+-ms-appearance: none;
+-o-appearance: none;
+appearance: none;
+
+    position: relative;
+    top: 400px;
+    left: -20%;
+    float: left;
+
+    border-radius: 30px;
+    border-spacing: 3px;
+    border-color: #572C57;
+    /* background-color: #E26972; */
+    background-color: white;
+    border: 3px solid #E26972;
+    border-radius: 30px;
+    font-family: 'Staatliches', cursive;   
+    font-size: 30px;   
+    width: 200px;
+    text-align: center;
+    margin-top: -5px;
+    color: #572C57;
+
+
+}
+
+
+.content .levels{
+    -webkit-appearance: none;
+-moz-appearance: none;
+-ms-appearance: none;
+-o-appearance: none;
+appearance: none;
+}
+
+.content .levels .question{
+    position: relative;
+    top: 400px;
+    font-size: 32px;
+    color: #572C57;
+    font-family: 'Staatliches', cursive;   
+
+}
+
+/* Submit_button */
+.content .input_data .submit_button{
+    position: relative;
+    top: 440px;
+    left: 14%;
+    float: left;
+
+    border-radius: 30px;
+    border-spacing: 3px;
+    border-color: #572C57;
+    /* background-color: #E26972; */
+    background-color: white;
+    border: 3px solid #E26972;
+    border-radius: 30px;
+    font-family: 'Staatliches', cursive;   
+    font-size: 30px;   
+    width: 200px;
+    text-align: center;
+    margin-top: -5px;
+    color: #572C57;
+    text-decoration: none;
+
+
+}

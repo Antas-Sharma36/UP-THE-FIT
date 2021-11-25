@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="../symbols-images/up_the_fit.png"/>
+
+    <title>Enter your details</title>
+</head>
+<body>
+    <!-- Right Menu -->
+    <div class="background-image">
+        <img src="../symbols-images/Rectangle 7.png" class="rectangle">
+        <img src="../symbols-images/tape.png" class="tape">
+        <button class="contact_details" onclick="contact_us()">Contact Us</button>
+
+    </div>
+
+    <!-- Left Side -->
+    <!-- Menu Bar -->
+    <div class="expendable-menu">
+        <!-- Website Logo -->
+        <img src="../symbols-images/up_the_fit.png">
+
+        <div class="flex-container">    
+            <a href="../home_page/index.html"><img src="../symbols-images/Home.svg"></a>
+            <a href="../bmi_page/index.html"><img src="../symbols-images/Menu.svg"></a>
+            <a href="#home"><img src="../symbols-images/Options.svg"></a>
+            <a href="#home"><img src="../symbols-images/Blog.svg"></a>
+            <a href="#home"><img src="../symbols-images/Testimonial.svg"></a>
+        
+        </div>
+    </div>
+
+    <div class="content">
+        <h1 class="heading">BMI Calculator</h1>
+        <form class="input_data" >
+        
+            <div class="weight">
+            <label for="input_weight" class="weight_label" >Your Current Weight is <br></label>
+            <input type="number" class="input_weight" placeholder="kilograms"> 
+            </div>
+        
+            <div class="height">
+            <label for="input_height" class="height_label" >Your Current Height is<br></label>
+            <input type="number" class="input_height" placeholder="centimetres"> 
+        </div>
+
+        <div class="goal">
+            <label for="input_goal" class="goal_label">Your Goal is<br></label>
+            <input type="number" class="input_goal" placeholder="kilograms"> 
+        </div>
+
+        <div class="btn-group levels" data-toggle="buttons">
+            <p class="question">WHAT LEVEL DO YOU WANT TO START AT-</p>
+
+            <label for="beginner">
+            <input type="radio" name="options" class="beginner lvel" value="Beginner"> 
+            Beginner</label>
+            <label for="intermediate">
+            <input type="radio" name="options" class="intermediate lvel" value="Intermediate"> 
+            Intermediate</label>
+            <label for="advanced"> 
+            <input type="radio" name="options" class="advanced lvel" value="Advanced">
+            Advanced</label>
+        </div>
+
+        <!-- <button type="submit" value="Submit" id="test_button" class="submit_button" onclick="change_location()">Submit</button> -->
+        
+        <a href="../result_page/index.html" class="submit_button">Submit</a>
+        </form>
+    </div>
+
+    <script src="script.js" type="module"></script>
+</body>
+</html>
